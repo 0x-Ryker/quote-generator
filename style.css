@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #053358;
+    height: 100vh;
+   width: 100%;
+}
+.wrapper{
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+p{
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    color: coral;
+}
+
+button{
+   padding: 12px;
+   border-radius: 10px;
+   border: none;
+   background-color: fuchsia;
+   color: white;
+   font-weight: bold;
+}
