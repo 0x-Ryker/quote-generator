@@ -7,13 +7,21 @@ body{
     background-color: #053358;
     height: 100vh;
    width: 100%;
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
 }
-.wrapper{
+.container{
    display: flex; 
    flex-direction: column;
    align-items: center;
    justify-content: center;
    
+   background-color: black;
+   padding: 50px;
+   align-self: center;
+   border-radius: 10px;
 }
 
 p{
@@ -30,4 +38,6 @@ button{
    background-color: fuchsia;
    color: white;
    font-weight: bold;
+   cursor: pointer;
+   align-self: center;
 }
